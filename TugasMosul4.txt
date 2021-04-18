@@ -1,0 +1,31 @@
+if (no_rek == 20140036) {
+                            System.out.println ("\n -> No Rekening      = "+no_rek);
+                            System.out.println (" -> a/n              = ARDHIKA AZHAR PRATAMA");
+                            System.out.println (" -> Jumlah Transfer  = "+jum_transfer);
+                            System.out.println (" TRANSAKSI BERHASIL !");
+                        } else
+                            if (no_rek == 20140104) {
+                            System.out.println ("\n -> No Rekening      = "+no_rek);
+                            System.out.println (" -> a/n              = MUHAMMAD FACHRURAZI");
+                            System.out.println (" -> Jumlah Transfer  = "+jum_transfer);
+                            System.out.println (" TRANSAKSI BERHASIL !");
+                        } else
+                            if (no_rek == 20120010) {
+                                System.out.println ("\n -> No Rekening      = "+no_rek);
+                                System.out.println (" -> a/n              = RIZAL AGATHA ERDIN AGESYAH");
+                                System.out.println (" -> Jumlah Transfer  = "+jum_transfer);
+                                System.out.println (" TRANSAKSI BERHASIL !");
+                            }else
+                                if (no_rek == 20130060) {
+                                System.out.println ("\n -> No Rekening      = "+no_rek);
+                                System.out.println (" -> a/n              = ILHAM PRATAMA");
+                                System.out.println (" -> Jumlah Transfer  = "+jum_transfer);
+                                System.out.println (" TRANSAKSI BERHASIL !");
+                            }
+                        else {
+                            System.out.println ("NO REKENING TIDAK TERDAFTAR. TRANSAKSI BATAL");
+                        }
+                        saldo=saldo-jum_transfer ;
+                    }else {
+                        System.out.println ("==========================================");
+
